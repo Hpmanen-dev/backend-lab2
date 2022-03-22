@@ -1,0 +1,22 @@
+body{
+    overflow: hidden;
+}
+
+#Content{
+    color: white;
+    height: 80vh;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#InputDiv{
+    text-align: center;
+}
+#Menu{
+    color: white;
+    text-align: center;
+}
+
+#Amount{
+    width: 235px;
+}

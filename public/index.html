@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="Dodgerblue">
+    <div id="Menu">
+        <h1> Welcome to the random character generator! </h1>
+        <p> 
+            Do you have a hard time coming up with characters for a story or something else? <br>
+            With this tool you will be able to generate random names and places of which the person is from. <br>
+            Just write into the text area a range of how long the first names can be in letters. <br>
+            For example: "4-6" will generate names with no more than 6 letters but no less than 4. <br>
+            Not writing anything, or a faulty input will generate names with no limitation to the amount of letters.
+        </p>
+        <div id="InputDiv">
+            <input id="Range" type="text" placeholder="Enter a range of numbers">
+            <button onclick="showList()"> Generate </button> 
+        </div>
+    </div>
+    <div id="Content"></div>
+
+    <script src="api-fetch.js"></script>
+</body>
+</html>
